@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  outline: none;
+  text-align: center;
+}
+
+.game-header {
+  padding: 0.5rem 1rem;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.game-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.words-list > h1 {
+  font-size: 3.5rem;
+}
+
+.start-btn {
+  padding: 0.5rem 1rem;
+}
