@@ -33,4 +33,10 @@ input {
 
 .start-btn {
   padding: 0.5rem 1rem;
+  background-color: lightblue;
+}
+
+.blocking {
+  pointer-events: none;
+  background-color: lightgray;
 }
