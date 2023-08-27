@@ -3,7 +3,18 @@
 import Data from './data.js';
 import Score from './score.js';
 
-export default class Game {
+export default class GameBuilder {
+  withGameDuration(duration) {
+    this.gameDuration = duration;
+    return this;
+  }
+
+  build() {
+    return new Game(this.gameDuration);
+  }
+}
+
+class Game {
   constructor(time) {
     this.isGaming = 'init';
     this.time = time;

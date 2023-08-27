@@ -1,5 +1,5 @@
 'use strict';
 
-import Game from './game.js';
+import GameBuilder from './game.js';
 
-const game = new Game(20);
+const game = new GameBuilder().withGameDuration(20).build();
